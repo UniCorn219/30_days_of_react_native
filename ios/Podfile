@@ -8,6 +8,8 @@ target 'react_native_in_30_days' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+
+
   target 'react_native_in_30_daysTests' do
     inherit! :complete
     # Pods for testing
